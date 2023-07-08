@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.foreroinc.abogacord.home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/clientes"
+        android:name="com.foreroinc.abogacord.clientes"
+        android:label="@string/menu_clientes"
+        tools:layout="@layout/fragment_clientes" />
+
+    <fragment
+        android:id="@+id/consultarcita"
+        android:name="com.foreroinc.abogacord.consultarcita"
+        android:label="@string/menu_consultarcita"
+        tools:layout="@layout/fragment_consultarcita" />
+
+    <fragment
+        android:id="@+id/agendarcita"
+        android:name="com.foreroinc.abogacord.agendarcita"
+        android:label="@string/menu_agendarcita"
+        tools:layout="@layout/fragment_agendarcita" />
+    <fragment
+        android:id="@+id/crearproceso"
+        android:name="com.foreroinc.abogacord.crearproceso"
+        android:label="@string/menu_crearproceso"
+        tools:layout="@layout/fragment_crearproceso" />
+    <fragment
+        android:id="@+id/crearusuario"
+        android:name="com.foreroinc.abogacord.crearusuario"
+        android:label="@string/menu_crearusuario"
+        tools:layout="@layout/fragment_crearusuario" />
+    <fragment
+        android:id="@+id/lista_abogado"
+        android:name="com.foreroinc.abogacord.lista_abogado"
+        android:label="ver casos"
+        tools:layout="@layout/fragment_lista_abogado" />
+    <fragment
+        android:id="@+id/lista_cliente"
+        android:name="com.foreroinc.abogacord.lista_cliente"
+        android:label="ver casos"
+        tools:layout="@layout/fragment_lista_cliente" />
+    <fragment
+        android:id="@+id/modificar_usuario"
+        android:name="com.foreroinc.abogacord.modificar_usuario"
+        android:label="Modificar Usuario"
+        tools:layout="@layout/fragment_modificar_usuario" />
+    <fragment
+        android:id="@+id/lista_administrador"
+        android:name="com.foreroinc.abogacord.lista_administrador"
+        android:label="Procesos"
+        tools:layout="@layout/fragment_lista_administrador" />
+    <fragment
+        android:id="@+id/detalles"
+        android:name="com.foreroinc.abogacord.Detalles"
+        android:label="fragment_detalles"
+        tools:layout="@layout/fragment_detalles" />
+    <fragment
+        android:id="@+id/fichero"
+        android:name="com.foreroinc.abogacord.fichero"
+        android:label="fragment_fichero"
+        tools:layout="@layout/fragment_fichero" />
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.foreroinc.abogacord.registro"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" />
+    <fragment
+        android:id="@+id/detalleRegistro"
+        android:name="com.foreroinc.abogacord.DetalleRegistro"
+        android:label="fragment_detalle_registro"
+        tools:layout="@layout/fragment_detalle_registro" />
+    <fragment
+        android:id="@+id/registro2"
+        android:name="com.foreroinc.abogacord.Registro2"
+        android:label="fragment_registro2"
+        tools:layout="@layout/fragment_registro2" />
+
+</navigation>

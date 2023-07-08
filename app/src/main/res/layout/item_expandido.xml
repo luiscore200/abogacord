@@ -1,0 +1,437 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+
+        android:background="@color/teal_200">
+
+
+
+        <TextView
+            android:id="@+id/id_recicler_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/convergence"
+
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="ID" />
+        <TextView
+            android:id="@+id/periodo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Periodo: " />
+
+        <TextView
+            android:id="@+id/periodo_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/periodo_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="periodo" />
+        <TextView
+            android:id="@+id/descripcion_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Descripcion: " />
+
+        <TextView
+            android:id="@+id/descripcion_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/descripcion_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="descripcion" />
+        <TextView
+            android:id="@+id/enero_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Enero:" />
+
+        <TextView
+            android:id="@+id/enero_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/enero_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="enero" />
+
+        <TextView
+            android:id="@+id/febrero_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="30dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Febrero: " />
+
+        <TextView
+            android:id="@+id/febrero_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/febrero_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="febrero" />
+
+        <TextView
+            android:id="@+id/marzo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Marzo: " />
+
+        <TextView
+            android:id="@+id/marzo_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/marzo_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="marzo" />
+
+        <TextView
+            android:id="@+id/abril_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:paddingLeft="30dp"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Abril: " />
+        <TextView
+            android:id="@+id/abril_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/abril_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="abril" />
+
+        <TextView
+            android:id="@+id/mayo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:paddingLeft="30dp"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Mayo: " />
+
+        <TextView
+            android:id="@+id/mayo_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/mayo_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="mayo" />
+
+        <TextView
+            android:id="@+id/junio_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Junio:" />
+
+        <TextView
+            android:id="@+id/junio_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/junio_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="junio" />
+        <TextView
+            android:id="@+id/julio_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Julio:" />
+
+        <TextView
+            android:id="@+id/julio_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/julio_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="julio" />
+
+        <TextView
+            android:id="@+id/agosto_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Agosto: " />
+
+        <TextView
+            android:id="@+id/agosto_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/agosto_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="agosto" />
+
+        <TextView
+            android:id="@+id/septiembre_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Septiembre:" />
+
+        <TextView
+            android:id="@+id/septiembre_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/septiembre_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="septiembre" />
+
+        <TextView
+            android:id="@+id/octubre_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Octubre: " />
+
+        <TextView
+            android:id="@+id/octubre_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/octubre_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="octubre" />
+        <TextView
+            android:id="@+id/noviembre_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Noviembre: " />
+
+        <TextView
+            android:id="@+id/noviembre_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/noviembre_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="noviembre" />
+
+        <TextView
+            android:id="@+id/diciembre_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="30dp"
+            android:fontFamily="@font/convergence"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="Diciembre: " />
+
+        <TextView
+            android:id="@+id/diciembre_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/convergence"
+            android:layout_toRightOf="@id/diciembre_label"
+            android:textColor="#393A31"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="diciembre" />
+
+        <Button
+            android:id="@+id/boton_expanded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="10dp"
+
+
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

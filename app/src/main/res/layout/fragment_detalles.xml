@@ -1,0 +1,179 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtIdCasoV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID Caso"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtIdCaso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtNombreV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre Caso"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtDescripcionV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtcedulaClienteV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CLiente"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtCedulaCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtcedulaAbogadoV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Abogado"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtCedulaAbogado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/txtestadoV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estado"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="35dp"
+            android:background="@null"
+            android:textSize="18sp"
+            android:enabled="false" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Regresar"
+                android:layout_marginLeft="30dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnBorrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Borrar"
+                android:layout_marginLeft="30dp"
+
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

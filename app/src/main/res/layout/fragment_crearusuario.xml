@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearusuario">
+
+    <EditText
+        android:id="@+id/usuario_cedula"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_cedula"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usuario_nombres"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_nombres"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usuario_cedula" />
+
+    <EditText
+        android:id="@+id/usuario_apellidos"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_apellidos"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usuario_nombres" />
+
+    <EditText
+        android:id="@+id/usuario_usuario"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="76dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_usuario"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usuario_apellidos" />
+
+    <EditText
+        android:id="@+id/usuario_contrasena"
+        android:layout_width="345dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_contraseña"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usuario_usuario" />
+
+    <RadioGroup
+        android:id="@+id/usuario_rol"
+        android:layout_width="339dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/usuario_contrasena">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crearusuario_rol_administrador"
+            android:id="@+id/btn_administrador"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crearusuario_rol_abogado"
+            android:id="@+id/btn_abogado"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crearusuario_rol_cliente"
+            android:id="@+id/btn_cliente"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/crearusuario_btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/crearusuario_btn_enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usuario_rol" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

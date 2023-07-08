@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AbogaCord</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LegisUnicor</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="login_usuario">Usuario</string>
+    <string name="login_contrasena">Contraseña</string>
+    <string name="login_btn_iniciarsesion">Iniciar Sesion</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_clientes">Clientes</string>
+    <string name="menu_consultarcita">Consultar Cita</string>
+    <string name="menu_agendarcita">Agendar Cita</string>
+    <string name="menu_consultarproceso">Consultar Proceso</string>
+    <string name="menu_vercasos">Ver Casos</string>
+    <string name="menu_modificar_usuario">Modificar Usuario</string>
+    <string name="menu_fichero">fichero</string>
+
+
+    <string name="menu_modificarusuario">Crear Usuario</string>
+    <string name="modificarusuario_cedula">Cedula</string>
+    <string name="modificarusuario_nombres">Nombres</string>
+    <string name="modificarusuario_apellidos">Apellidos</string>
+    <string name="modificarusuario_usuario">Nombre de Usuario</string>
+    <string name="modificarusuario_contraseña">Contraseña</string>
+    <string name="modificarusuario_rol_administrador">Administrador</string>
+    <string name="modificarusuario_rol_abogado">Abogado</string>
+    <string name="modificarusuario_rol_cliente">Cliente</string>
+    <string name="modificar_usuario_boton">Modificar</string>
+    <string name="buscar_usuario_boton">Buscar</string>
+    <string name="eliminar_usuario_boton">Eliminar</string>
+
+    <string name="menu_crearproceso">Crear Proceso</string>
+    <string name="crearproceso_nombrecaso">Nombre del Caso</string>
+    <string name="crearproceso_descripcion">Descripcion</string>
+    <string name="crearproceso_estado">Estado</string>
+    <string name="crearproceso_cedula">Cedula Cliente</string>
+
+    <string-array name="crearproceso_estado">
+        <item name="crearproceso_estado_abierto">Abierto</item>
+        <item name="crearproceso_estado_cerrado">Cerrado</item>
+        <item name="crearproceso_estado_resuelto">Resuelto</item>
+        <item name="crearproceso_estado_entramite">En Tramite</item>
+        <item name="crearproceso_estado_enjuzgado">En Juzgado</item>
+        <item name="crearproceso_estado_apelacion">Apelacion</item>
+        <item name="crearproceso_estado_porasignar">Por Asignar</item>
+        <item name="crearproceso_estado_indagatoria">Indagatoria</item>
+    </string-array>
+    <string name="crearproceso_btn_enviar">Crear Proceso</string>
+
+    <string name="menu_crearusuario">Crear Usuario</string>
+    <string name="crearusuario_cedula">Cedula</string>
+    <string name="crearusuario_nombres">Nombres</string>
+    <string name="crearusuario_apellidos">Apellidos</string>
+    <string name="crearusuario_usuario">Nombre de Usuario</string>
+    <string name="crearusuario_contraseña">Contraseña</string>
+    <string name="crearusuario_rol_administrador">Administrador</string>
+    <string name="crearusuario_rol_abogado">Abogado</string>
+    <string name="crearusuario_rol_cliente">Cliente</string>
+    <string name="crearusuario_btn_enviar">Crear Usuario</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

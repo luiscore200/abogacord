@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearproceso">
+
+    <EditText
+        android:id="@+id/caso_abogado_1"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/crearusuario_rol_abogado"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/caso_nombre"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="@string/crearproceso_nombrecaso"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <EditText
+        android:id="@+id/caso_descripcion"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/crearproceso_descripcion"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/caso_nombre" />
+
+    <EditText
+        android:id="@+id/caso_cedulaCliente"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/crearproceso_cedula"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/caso_descripcion" />
+
+    <TextView
+        android:id="@+id/caso_estadotv"
+        android:layout_width="410dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="60dp"
+        android:text="Estado"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/caso_cedulaCliente" />
+
+
+    <Spinner
+        android:id="@+id/caso_estado"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/caso_estadotv">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/crearproceso_btn_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/crearproceso_btn_enviar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caso_estadotv" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
